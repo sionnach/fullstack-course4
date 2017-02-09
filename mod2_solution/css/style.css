@@ -3,18 +3,14 @@
 	margin: 0;
 	padding: 0;
 }
-
-div#container {
-  background-color: #00FFFF;
-  position: relative;
-  top: 60px;
-}
-
 .container {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #00FFFF;
+	position: relative;
+	top: 60px;
 }
 .row {
 	margin-right: -15px;
