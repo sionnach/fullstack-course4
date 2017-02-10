@@ -10,7 +10,6 @@ body {
 
 h1, h4, p {
 	font-family: Verdana, Tahoma, Helvetica, Arial sans-serif;
-	color: #3f3f3f;
 }
 
 h1, h4 {
@@ -94,10 +93,13 @@ p {
 
 #chicken {
 	background-color: #fff5ee /* sea shell */;
+	color: #3f3f3f;
 }
 #beef {
 	background-color:  #87CEEB /* sky blue */;
+	color: #3f3f3f;
 }
 #sushi {
 	background-color: #00ff7f /* spring-green */;
+	color: #3f3f3f;
 }
