@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+body {
+	background-color: light-gray;
+}
+
 h1, h4, p {
 	font-family: Verdana, Tahoma, Helvetica, Arial sans-serif;
 }
@@ -21,7 +25,6 @@ p {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #ddffff;
 	position: relative;
 	top: 60px;
 }
@@ -33,15 +36,14 @@ p {
 
 .col-sm-12, .col-md-6, .col-lg-4 {
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding: 15px;
 	float: left;
 }
 
 .content {
 	width: 90%;
 	border: 2px solid blue;
-	background-color: light-gray;
+	background-color: gray;
 }
 
 .pull-right {
@@ -83,10 +85,19 @@ p {
 
 /********** Mobile devices **********/
 @media (max-width: 767px) {
-
 	.col-xs-12 {
 		width: 100%;
 	}
-
-
 }
+
+#chicken {
+	background-color: pink;
+}
+#beef {
+	background-color: orange;
+}
+#sushi {
+	background-color: teal;
+}
+
+.row div:nth-of-type(1) {-webkit-flex-grow: 2;}
