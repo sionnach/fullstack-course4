@@ -30,8 +30,6 @@ p {
 }
 .row {
 	width: 100%;
-	margin-right: -15px;
-	margin-left: -15px;
 }
 
 .col-sm-12, .col-md-6, .col-lg-4 {
@@ -62,25 +60,23 @@ p {
 	width: 100%;
 	padding: 0.5em;
 }
-	
 
 /********** Large devices **********/
 @media (min-width: 992px) {
-
 	.col-lg-4 {
 		width: 33%;
 	}
-
 }
 
 
 /********** Medium devices **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
 	.col-md-6 {
 		width: 50%;
 	}
-
+	.row div:nth-child(0n+3) {
+		width:100%;
+	}
 }
 
 /********** Mobile devices **********/
@@ -99,5 +95,3 @@ p {
 #sushi {
 	background-color: teal;
 }
-
-.row div:nth-of-type(1) {-webkit-flex-grow: 2;}
