@@ -2,8 +2,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+h1, h4, p {
 	font-family: Verdana, Tahoma, Helvetica, Arial sans-serif;
-	
 }
 
 h1 {
@@ -47,9 +49,10 @@ p {
 }
 
 .content section.pull-right {
-	width: 6em;
+	width: 100;
 	height: 3em;
 	border-left: 2px solid blue;
+	border-bottom: 2px solid blue;
 }
 
 .content section.pull-right h4 {
