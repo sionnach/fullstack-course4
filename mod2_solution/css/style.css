@@ -2,30 +2,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #00FFFF;
-	position: relative;
-	top: 60px;
-}
-.row {
-	margin-right: -15px;
-	margin-left: -15px;
-}
-
-.col-sm-12, .col-md-6, .col-lg-4 {
-	width: 90%;
-	position: relative;
-	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
-	float: left;
-	border: 1px solid black;
-	background-color: #A52A2A;
+	font-family: Verdana, Tahoma, Helvetica, Arial sans-serif;
+	
 }
 
 h1 {
@@ -36,9 +14,49 @@ p {
 	clear: both;
 }
 
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ddffff;
+	position: relative;
+	top: 60px;
+}
+.row {
+	width: 100%;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col-sm-12, .col-md-6, .col-lg-4 {
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	border: 1px solid black;
+	background-color: #ddffff;
+}
+
+.content {
+	width: 90%;
+}
+
 .pull-right {
   float: right !important;
 }
+
+.content section.pull-right {
+	width: 6em;
+	height: 3em;
+	border-left: 2px solid blue;
+}
+
+.content section.pull-right h4 {
+	width: 100%;
+	padding: 0.5em;
+}
+	
 
 /********** Large devices **********/
 @media (min-width: 992px) {
