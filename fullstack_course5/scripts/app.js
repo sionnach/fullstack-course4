@@ -2,12 +2,12 @@
 	'use strict';
 
 	angular
-		.module('TM', [])
-		.controller('TMController', TMController);
+		.module('LunchCheck', [])
+		.controller('LunchCheckController', LunchCheckController);
 
-	TMController.$inject = ['$scope'];
+	LunchCheckController.$inject = ['$scope'];
 
-	function TMController($scope) {
+	function LunchCheckController($scope) {
 
 		$scope.checkTooMuch = function () {
 			if ($scope.meal_input == undefined || $scope.meal_input.length == 0) {
@@ -15,8 +15,6 @@
 			}
 			else {
 				$scope.split = $scope.meal_input.split(',');
-				console.log($scope.split.length);
-				console.log($scope.split);
 				if ($scope.split.length <= 3) {
 					$scope.group_message = "Enjoy!";
 				}
